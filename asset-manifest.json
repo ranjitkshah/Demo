@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/LIVECLASS-MASTER/static/css/main.3a0cfb93.chunk.css",
+    "main.js": "/LIVECLASS-MASTER/static/js/main.0c60fff8.chunk.js",
+    "main.js.map": "/LIVECLASS-MASTER/static/js/main.0c60fff8.chunk.js.map",
+    "runtime-main.js": "/LIVECLASS-MASTER/static/js/runtime-main.911a1ec1.js",
+    "runtime-main.js.map": "/LIVECLASS-MASTER/static/js/runtime-main.911a1ec1.js.map",
+    "static/js/2.073ac1e5.chunk.js": "/LIVECLASS-MASTER/static/js/2.073ac1e5.chunk.js",
+    "static/js/2.073ac1e5.chunk.js.map": "/LIVECLASS-MASTER/static/js/2.073ac1e5.chunk.js.map",
+    "index.html": "/LIVECLASS-MASTER/index.html",
+    "precache-manifest.0ba920514690971b786cc1e2f4877db5.js": "/LIVECLASS-MASTER/precache-manifest.0ba920514690971b786cc1e2f4877db5.js",
+    "service-worker.js": "/LIVECLASS-MASTER/service-worker.js",
+    "static/css/main.3a0cfb93.chunk.css.map": "/LIVECLASS-MASTER/static/css/main.3a0cfb93.chunk.css.map",
+    "static/js/2.073ac1e5.chunk.js.LICENSE.txt": "/LIVECLASS-MASTER/static/js/2.073ac1e5.chunk.js.LICENSE.txt",
+    "static/media/mov_bbb.mp4": "/LIVECLASS-MASTER/static/media/mov_bbb.198918f4.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.911a1ec1.js",
+    "static/js/2.073ac1e5.chunk.js",
+    "static/css/main.3a0cfb93.chunk.css",
+    "static/js/main.0c60fff8.chunk.js"
+  ]
+}
