@@ -20,3 +20,12 @@
 .dashBar ul li:hover{
     cursor: pointer;
 }
+
+.link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: yellow;
+}

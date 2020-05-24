@@ -2,11 +2,12 @@ import React, { useState } from 'react'
 import LessonCard from '../Components/Utilities/LessonCard';
 import styles from '../CompStyles/assignmentCard.module.css';
 import AssignmentTimer from './Utilities/AssignmentTimer';
+import {Link} from 'react-router-dom';
 const assignments = [
     {
         assignmentId: 1,
         subject: "Maths",
-        lastDateToSubmit: "2020-05-25",
+        lastDateToSubmit: "2020-05-31",
     },
     {
         assignmentId: 2,
@@ -16,7 +17,7 @@ const assignments = [
     {
         assignmentId: 3,
         subject: "Python",
-        lastDateToSubmit: "2020-05-5",
+        lastDateToSubmit: "2020-06-5",
     },
     {
         assignmentId: 4,
@@ -43,10 +44,10 @@ function AssignmentPage() {
             <div className={styles.assignmentCards}>
                 {
                     assignments.map((assignment) => {
-                        return <LessonCard style={{ height: '10px' }} title={assignment.subject} percentage="13" background={ongoing ? colorArray['ongoing'] : colorArray['failure']}>
+                        return <Link className={styles.link} to="/submit"><LessonCard style={{ height: '10px' }} title={assignment.subject} percentage="13" background={ongoing ? colorArray['ongoing'] : colorArray['failure']}>
                             <p className={styles.track}>Time to work!</p>
                             <AssignmentTimer lastDateToSubmit={assignment.lastDateToSubmit} />
-                        </LessonCard>
+                        </LessonCard></Link>
                     })
                 }
 

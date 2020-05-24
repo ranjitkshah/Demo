@@ -21,7 +21,7 @@
 .assignmentTimer{
     color: whitesmoke;
     display: flex;
-    font-size: 35px;
+    font-size: 30px;
     justify-content: space-around;
     margin: 0px 2px;
     margin-bottom: 10px;
@@ -51,4 +51,8 @@
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.89);
     text-align: center;
+}
+
+.link{
+    text-decoration: none;
 }

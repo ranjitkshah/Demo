@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../../CompStyles/UtilitiesStyle/NavBar.module.css';
 import { AppBar, Toolbar, Typography, IconButton, Button, Grid } from '@material-ui/core';
+import {Link} from 'react-router-dom';
 
 
 const NavBar = () => {
@@ -16,7 +17,7 @@ const NavBar = () => {
 
                         <Grid item lg={3} md={4} xs={4} sm={6}>
                             <div>
-                                 <button className={styles.navBtn}>Login</button>
+                                 <button className={styles.navBtn}><Link className={styles.link} to="/">Login</Link></button>
                                  <button className={styles.navBtn}>Select class</button>
                             </div>
                         </Grid>

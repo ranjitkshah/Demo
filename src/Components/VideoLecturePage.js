@@ -8,8 +8,8 @@ import axios from '../Components/axiosInstance'
 class VideoLecturePage extends Component{ //that will give u an object kindof thing...using that, u can fetch any api..just paste the url like below4444444444466666444444444444444444
     state=
     {
-        title:"Fetching Name...",
-        url:"Fetching video url..."
+        title:"Lesson -1",
+        url:"https://youtu.be/R1sfHPwEH7A"
     }
     componentDidMount()
         //done
